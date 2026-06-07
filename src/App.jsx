@@ -16,8 +16,8 @@ const PARENTS = [
 
 const INITIAL_DATA = {
   taches: [
-    { id: 1, text: "Rendez-vous médecin Tyler", done: false, who: "Noah", by: "kim", at: 0 },
-    { id: 2, text: "Payer école de soccer Milo", done: false, who: "Léo", by: "jade", at: 0 },
+    { id: 1, text: "Rendez-vous médecin Tyler", done: false, who: "Tyler", by: "kim", at: 0 },
+    { id: 2, text: "Payer école de soccer Milo", done: false, who: "Milo", by: "jade", at: 0 },
   ],
   epicerie: [
     { id: 1, text: "Yogourt grec", done: false, qty: "2", by: "kim", at: 0 },
