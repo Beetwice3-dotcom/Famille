@@ -16,20 +16,20 @@ const PARENTS = [
 
 const INITIAL_DATA = {
   taches: [
-    { id: 1, text: "Rendez-vous médecin Noah", done: false, who: "Noah", by: "kim", at: 0 },
-    { id: 2, text: "Payer école de soccer Léo", done: false, who: "Léo", by: "jade", at: 0 },
+    { id: 1, text: "Rendez-vous médecin Tyler", done: false, who: "Noah", by: "kim", at: 0 },
+    { id: 2, text: "Payer école de soccer Milo", done: false, who: "Léo", by: "jade", at: 0 },
   ],
   epicerie: [
     { id: 1, text: "Yogourt grec", done: false, qty: "2", by: "kim", at: 0 },
     { id: 2, text: "Lait", done: false, qty: "2L", by: "jade", at: 0 },
   ],
   agenda: [
-    { id: 1, jour: "Lun", date: "09", event: "Soccer Leo", heure: "17h30", color: "#FF6B35", by: "jade" },
-    { id: 2, jour: "Mar", date: "10", event: "Natation Noah", heure: "16h00", color: "#4ECDC4", by: "kim" },
+    { id: 1, jour: "Lun", date: "09", event: "Soccer Milo", heure: "17h30", color: "#FF6B35", by: "jade" },
+    { id: 2, jour: "Mar", date: "10", event: "Natation Tyler", heure: "16h00", color: "#4ECDC4", by: "kim" },
   ],
   notes: [
-    { id: 1, text: "Noah allergique aux arachides", color: "#FFE66D", by: "kim" },
-    { id: 2, text: "Leo a besoin d'une tenue de sport chaque jeudi", color: "#A8DADC", by: "jade" },
+    { id: 1, text: "Tyler allergique aux arachides", color: "#FFE66D", by: "kim" },
+    { id: 2, text: "Milo a besoin d'une tenue de sport chaque jeudi", color: "#A8DADC", by: "jade" },
   ],
   lastUpdatedBy: null,
   lastUpdatedAt: null,
