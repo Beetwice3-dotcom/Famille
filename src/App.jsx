@@ -252,7 +252,7 @@ export default function FamilleApp() {
             <Card>
               <input value={newTache} onChange={e => setNewTache(e.target.value)} onKeyDown={e => e.key==="Enter" && addTache()} placeholder="Nouvelle tache..." style={inp} />
               <div style={{ display:"flex", gap:8, marginTop:10 }}>
-                <select value={newWho} onChange={e => setNewWho(e.target.value)} style={{ ...inp, flex:1 }}><option>Noah</option><option>Leo</option><option>Les deux</option></select>
+                <select value={newWho} onChange={e => setNewWho(e.target.value)} style={{ ...inp, flex:1 }}><option>Tyler</option><option>Milo</option><option>Les deux</option></select>
                 <Btn onClick={addTache} color={parent.color} />
               </div>
             </Card>
